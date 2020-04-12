@@ -39,7 +39,7 @@ class ViewController: UIViewController, UICollectionViewDataSource,  UICollectio
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ImageCollectionViewCell", for: indexPath) as!  ImageCollectionViewCell
-        cell.img.image = b[indexPath.row]
+        cell.img.image = b[indexath.row]
         cell.SName.text = a[indexPath.row]
         return cell
     }
